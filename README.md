@@ -1,4 +1,4 @@
 # gulp-imageminifier
 
-npm install
-gulp imagemin
+### npm install
+### gulp imagemin
