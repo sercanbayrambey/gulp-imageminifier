@@ -9,5 +9,5 @@ function defaultTask(cb) {
 exports.default = defaultTask
 
 gulp.task('imagemin', function () {
-    return gulp.src('images/*').pipe(imagemin()).pipe(gulp.dest('result/'));
+    return gulp.src('images/**/*').pipe(imagemin()).pipe(gulp.dest('result/'));
 });
